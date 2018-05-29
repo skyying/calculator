@@ -4,7 +4,7 @@ var math = require("mathjs");
 export class Calculator {
     constructor() {
         this.stack = ["0"];
-        this.topType = Btn.number.type; // what is the type of last element in stack
+        this.topType = Btn.number.type; // the type of last element in stack 
         this.afterEqual = false; // a flag for is equal button just pressed or not
     }
     setTop(top) {
