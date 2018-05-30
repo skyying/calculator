@@ -10,17 +10,17 @@ A simple calculator build with Javascript from a javascript beginner.
 # What I learned from this project
 
 ## Design
-has been a UX designer, I love design, it is fun as you can experiment so many
-things. I've try different color schemes, pick a right font for display
-digits, and think about what kind of background and emphasize the calculator
+have been a UX designer, I love design. It's fun as you can experiment so many
+things. I've try different color schemes, picked a right font for display
+digits, and think about what kind of background can emphasize the calculator
 better. 
 
 
 ## Languages/Tools/IDE
 
 ### webpack, npm
-I learn how to configure webpack by reading their official document and has crated a
-project and following their guide step by step. 
+I learn how to configure webpack by reading their official document and crated a
+project by following their guide step by step. 
 
 webpack is such a powerful tool compared to web development workflow one decade ago. 
 I learn how to separate source code under `./src` and let webpack loader /
