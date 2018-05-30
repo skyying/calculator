@@ -63,7 +63,7 @@ export class Calculator {
 
         let isEqual = this.afterEqual;
 
-        if ((isEqual && this.topType !== Btn.operator.type) || type ===
+        if ((isEqual && type===Btn.number.type && this.topType !== Btn.operator.type) || type ===
             Btn.clear.type) {
             this.clear();
         }
