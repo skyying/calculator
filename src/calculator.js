@@ -7,6 +7,8 @@ export class Calculator {
         this.topType = Btn.number.type; // the type of last element in stack 
         this.afterEqual = false; // a flag for is equal button just pressed or not
     }
+
+
     setTop(top) {
         this.stack[this.stack.length - 1] = top;
     }

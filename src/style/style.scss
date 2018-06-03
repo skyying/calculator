@@ -35,6 +35,10 @@ body {
     font-size: 16px;
 }
 
+#canvasContainer{
+    width: $mainWidth;
+    display: none;
+}
 
 #result {
     height: 80px;
@@ -70,9 +74,9 @@ body {
 
 
 .gradient {
-  background-image:
+    background-image:
     linear-gradient(
-      #FFFFFF, #CBAFD1, #87B2FF
+    #FFFFFF, #CBAFD1, #87B2FF
     );
 }
 
