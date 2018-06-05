@@ -4,7 +4,7 @@ A simple calculator build with Javascript from a javascript beginner.
 
 
 # Screenshot
-[Demo](https://github.com/skyying/Calculator/)
+[Demo](https://markwit.cc/)
 ![screenshot](https://github.com/skyying/Calculator/blob/master/img/screenshot.jpg)
 
 
