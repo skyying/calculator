@@ -58,4 +58,5 @@ I learn how the tricky `this` means in javascript, writing es6 class,
   Due to javascript only have 64 bit floating point, the calculation might be
   incorrect ,i use [ mathjs ](http://mathjs.org/) to do the calculation.
 
-
+### Future Work
+  Responsive version for mobile users
