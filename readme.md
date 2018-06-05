@@ -4,6 +4,8 @@ A simple calculator build with Javascript from a javascript beginner.
 
 
 # Screenshot
+
+[Demo](https://github.com/skyying/Calculator)
 ![screenshot](https://github.com/skyying/Calculator/blob/master/img/screenshot.jpg)
 
 
@@ -56,10 +58,5 @@ I learn how the tricky `this` means in javascript, writing es6 class,
 ### Module I used
   Due to javascript only have 64 bit floating point, the calculation might be
   incorrect ,i use [ mathjs ](http://mathjs.org/) to do the calculation.
-
-
-## Issues
-  - [ ] Resize display answer's font-size base on current text number
-  - [ ] Resolve answer like `2.000000e-8`
 
 
