@@ -2,7 +2,7 @@
 # Calculator 
 A simple calculator build with Javascript from a javascript beginner.
 
-[Give it a try] (https://skyying.github.io/Calculator/)
+[Give it a try](https://skyying.github.io/Calculator/)
 
 # Screenshot
 
