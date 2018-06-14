@@ -2,9 +2,9 @@
 # Calculator 
 A simple calculator build with Javascript from a javascript beginner.
 
+[Give it a try](https://skyying.github.io/Calculator/)
 
 # Screenshot
-[Demo](https://markwit.cc/)
 ![screenshot](https://github.com/skyying/Calculator/blob/master/img/screenshot.jpg)
 
 
