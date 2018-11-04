@@ -1,37 +1,47 @@
 {
-  "name": "Calculator",
-  "version": "1.0.1",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
-  },
-  "keywords": [],
-  "author": "Chien Wen",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "clean-webpack-plugin": "^0.1.19",
-    "css-loader": "^0.28.11",
-    "eslint": "^4.19.1",
-    "file-loader": "^1.1.11",
-    "html-webpack-plugin": "^3.2.0",
-    "sass-loader": "^7.0.2",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.10.2",
-    "webpack-cli": "^2.1.5",
-    "webpack-dev-server": "^3.1.4"
-  },
-  "dependencies": {
-    "mathjs": "^4.4.2",
-    "node-sass": "^4.9.0"
-  },
-  "main": "webpack.config.js",
-  "description": ""
+    "name": "Calcuator",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "webpack --env production",
+        "start": "webpack-dev-server --env development",
+        "build:stats": "webpack --env production --json > stats.json"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "clean-webpack-plugin": "^0.1.19",
+        "css-loader": "^0.28.11",
+        "cssnano": "^3.10.0",
+        "eslint": "^5.0.1",
+        "eslint-plugin-react": "^7.10.0",
+        "fast-sass-loader": "^1.4.5",
+        "file-loader": "^1.1.11",
+        "glob": "^7.1.2",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.4.0",
+        "optimize-css-assets-webpack-plugin": "^4.0.3",
+        "purify-css": "^1.2.5",
+        "purifycss-webpack": "^0.7.0",
+        "style-loader": "^0.21.0",
+        "svg-url-loader": "^2.3.2",
+        "uglifyjs-webpack-plugin": "^1.2.7",
+        "url-loader": "^1.0.1",
+        "webpack": "^4.12.0",
+        "webpack-cli": "^3.0.8",
+        "webpack-dev-server": "^3.1.4",
+        "webpack-merge": "^4.1.3"
+    },
+    "dependencies": {
+        "mathjs": "^5.2.3",
+        "node-sass": "^4.9.0",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-router-dom": "^4.3.1"
+    }
 }
